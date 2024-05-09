@@ -63,6 +63,16 @@ header {
     margin-top: 50px;
 }
 
+.seccion-experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 35px; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
 .titulo-educacion {
     text-align: center;
 }
@@ -73,3 +83,8 @@ header {
     
 }
 
+.experiencia-container{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
