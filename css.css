@@ -3,7 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: lightgrey;
+}
 .header {
     display: flex;
     justify-content: space-around;
@@ -27,3 +31,45 @@ a {
 header {
     background-color: #091a28;
 }
+
+.container1 {
+
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    padding: 50px;
+}
+.logoi {
+    border-radius: 50%;
+    
+}
+.arriba {
+    top: 20;
+    width: 50%;
+    height: 100%;    
+} 
+.seccion-educacion {
+    display: flex;
+    flex-direction: column;
+    gap: 35px; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.titulo-educacion {
+    text-align: center;
+}
+
+.educacion {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
