@@ -106,8 +106,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    width: 100%;
+    align-items: center;
 }
-
+.experiencia {
+    width: 70%;
+}
 .titulo-educacion {
     text-align: center;
 }
@@ -155,7 +159,4 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-
-
-
 }
