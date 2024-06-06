@@ -34,8 +34,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 }
-
+.container-iconos {
+    display: flex;
+    gap: 35px;
+}
 .container-imagen {
     border-radius: 50%;
     background-image: url(fotoinicio.jpg);
